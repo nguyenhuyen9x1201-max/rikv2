@@ -1,0 +1,26 @@
+{
+  "name": "game-server-upgraded",
+  "version": "1.0.0",
+  "description": "Upgraded project dependencies (patched by assistant)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ws": "^6.0.0",
+    "morgan": "^1.10.0",
+    "mongoose": "^7.3.4",
+    "mongoose-long": "^0.2.2",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
